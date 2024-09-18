@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WtJ-ut-OpS">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="PVq-QM-ooB">
+            <objects>
+                <tableViewController id="ehk-b9-Ud2" customClass="ViewController" customModule="First_Milestone" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="64" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="pzq-u2-xwB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Country" id="dgq-G5-aAy">
+                                <rect key="frame" x="0.0" y="50" width="393" height="64"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dgq-G5-aAy" id="gnh-uf-TKP">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="64"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ehk-b9-Ud2" id="Pod-L2-dVR"/>
+                            <outlet property="delegate" destination="ehk-b9-Ud2" id="YRV-Wh-pdu"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="f8i-mG-9ex"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VkL-1P-kRN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1869.4656488549617" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mdX-c7-7PZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WtJ-ut-OpS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0eN-Mt-uDn">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ehk-b9-Ud2" kind="relationship" relationship="rootViewController" id="4df-2I-7pX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DSb-pe-OGs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="942.74809160305335" y="-2.1126760563380285"/>
+        </scene>
+        <!--Country View Controller-->
+        <scene sceneID="dYm-pi-PJM">
+            <objects>
+                <viewController storyboardIdentifier="CountryVC" id="wiS-Rr-1NY" customClass="CountryViewController" customModule="First_Milestone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3xE-q1-nxC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="france" translatesAutoresizingMaskIntoConstraints="NO" id="izD-dw-rCh">
+                                <rect key="frame" x="96.666666666666686" y="376" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="izD-dw-rCh" secondAttribute="height" multiplier="2:1" id="ySb-5b-cEP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GvX-OA-gmp">
+                                <rect key="frame" x="140.66666666666666" y="83" width="112" height="58"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RI9-vH-RKT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="izD-dw-rCh" firstAttribute="centerX" secondItem="3xE-q1-nxC" secondAttribute="centerX" id="B3f-W6-3ax"/>
+                            <constraint firstItem="izD-dw-rCh" firstAttribute="centerY" secondItem="3xE-q1-nxC" secondAttribute="centerY" id="K7p-UA-XmE"/>
+                            <constraint firstItem="GvX-OA-gmp" firstAttribute="centerX" secondItem="3xE-q1-nxC" secondAttribute="centerX" id="Vly-PY-gxN"/>
+                            <constraint firstItem="GvX-OA-gmp" firstAttribute="top" secondItem="RI9-vH-RKT" secondAttribute="top" constant="24" id="ZeJ-Ga-BCf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="countryLabel" destination="GvX-OA-gmp" id="MZm-kJ-IvQ"/>
+                        <outlet property="flagImageView" destination="izD-dw-rCh" id="pr9-Z8-tm6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vez-Ee-jjy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2803.8167938931297" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="france" width="200" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
