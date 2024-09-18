@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Project7
-//
-//  Created by Meitar Basson on 18/09/2024.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
