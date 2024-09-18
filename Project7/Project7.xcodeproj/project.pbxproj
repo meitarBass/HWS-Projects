@@ -15,6 +15,7 @@
 		A9ADF9F12C9AC49900015BA9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A9ADF9F02C9AC49900015BA9 /* Base */; };
 		A9ADF9F92C9AC90800015BA9 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADF9F82C9AC90800015BA9 /* Petition.swift */; };
 		A9ADF9FB2C9AC95700015BA9 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADF9FA2C9AC95700015BA9 /* Petitions.swift */; };
+		A9ADF9FD2C9AD29200015BA9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADF9FC2C9AD29200015BA9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A9ADF9F22C9AC49900015BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9ADF9F82C9AC90800015BA9 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
 		A9ADF9FA2C9AC95700015BA9 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		A9ADF9FC2C9AD29200015BA9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				A9ADF9F22C9AC49900015BA9 /* Info.plist */,
 				A9ADF9F82C9AC90800015BA9 /* Petition.swift */,
 				A9ADF9FA2C9AC95700015BA9 /* Petitions.swift */,
+				A9ADF9FC2C9AD29200015BA9 /* DetailViewController.swift */,
 			);
 			path = Project7;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				A9ADF9E92C9AC49800015BA9 /* ViewController.swift in Sources */,
 				A9ADF9F92C9AC90800015BA9 /* Petition.swift in Sources */,
 				A9ADF9E52C9AC49800015BA9 /* AppDelegate.swift in Sources */,
+				A9ADF9FD2C9AD29200015BA9 /* DetailViewController.swift in Sources */,
 				A9ADF9E72C9AC49800015BA9 /* SceneDelegate.swift in Sources */,
 				A9ADF9FB2C9AC95700015BA9 /* Petitions.swift in Sources */,
 			);
