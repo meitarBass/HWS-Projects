@@ -17,11 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c14-e2-kNg">
-                                <rect key="frame" x="96.666666666666686" y="393" width="200" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="fQ4-3z-912"/>
-                                    <constraint firstAttribute="height" constant="100" id="zQs-9N-Z0m"/>
-                                </constraints>
+                                <rect key="frame" x="84.666666666666686" y="421" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -29,11 +25,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxZ-pf-pal">
-                                <rect key="frame" x="96.666666666666686" y="263" width="200" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="Z2e-Ne-pmZ"/>
-                                    <constraint firstAttribute="height" constant="100" id="vxX-y8-Iwd"/>
-                                </constraints>
+                                <rect key="frame" x="84.666666666666686" y="277" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -41,11 +33,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7l-tL-gUi">
-                                <rect key="frame" x="96.666666666666686" y="133" width="200" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="WF1-Gk-cb8"/>
-                                    <constraint firstAttribute="width" constant="200" id="eSt-dQ-cdO"/>
-                                </constraints>
+                                <rect key="frame" x="84.666666666666686" y="133" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us" imagePadding="0.0">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
