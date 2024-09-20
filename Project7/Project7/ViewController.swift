@@ -19,14 +19,16 @@ class ViewController: UITableViewController {
             urlString = "https://www.hackingwithswift.com/samples/petitions-2.json"
         }
         
-        if let url = URL(string: urlString) {
-            if let data = try? Data(contentsOf: url) {
-                // We're ok to parse!
-                parse(json: data)
-                return
+        DispatchQueue.global(qos: .userInitiated).async {
+            if let url = URL(string: urlString) {
+                if let data = try? Data(contentsOf: url) {
+                    // We're ok to parse!
+                    self.parse(json: data)
+                    return
+                }
             }
+            self.showError()
         }
-        showError()
     }
     
     
@@ -78,7 +80,10 @@ class ViewController: UITableViewController {
         
         let submitAction = UIAlertAction(title: "Submit", style: .default) { [weak self, weak ac] action in
             guard let str = ac?.textFields?[0].text else { return }
-            self?.filter(byString: str)
+            
+            DispatchQueue.global(qos: .userInitiated).async {
+                self?.filter(byString: str)
+            }
         }
         
         ac.addAction(cancelAction)
@@ -99,7 +104,9 @@ class ViewController: UITableViewController {
         filteredPetitions = petitions
         filteredPetitions.removeAll { !$0.title.lowercased().contains(string.lowercased()) && !$0.body.lowercased().contains(string.lowercased())}
         
-        tableView.reloadData()
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
     }
 }
 

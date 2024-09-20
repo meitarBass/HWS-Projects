@@ -9,20 +9,25 @@ class ViewController: UITableViewController {
         
         navigationController?.navigationBar.prefersLargeTitles = true
         title = "Storm Viewer"
-    
-        let fm = FileManager.default
-        let path = Bundle.main.resourcePath!
-        let items = try! fm.contentsOfDirectory(atPath: path)
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(self.recommendTapped))
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(recommendTapped))
-        
-        for item in items {
-            if item.hasPrefix("nssl"){
-                pictures.append(item)
+        DispatchQueue.global(qos: .userInitiated).async {
+            let fm = FileManager.default
+            let path = Bundle.main.resourcePath!
+            let items = try! fm.contentsOfDirectory(atPath: path)
+                        
+            for item in items {
+                if item.hasPrefix("nssl"){
+                    self.pictures.append(item)
+                }
+            }
+            
+            self.pictures = self.pictures.sorted()
+            
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
             }
         }
-        
-        pictures = pictures.sorted()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
