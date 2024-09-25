@@ -19,16 +19,17 @@ class ViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(restartTapped))
         
         countries += ["estonia", "france", "germany", "ireland", "italy", "monaco", "nigeria", "poland", "russia", "spain", "uk", "us"]
+      
 
+        button1.clipsToBounds = true
+        
         button1.layer.borderColor = UIColor.lightGray.cgColor
         button2.layer.borderColor = UIColor.lightGray.cgColor
         button3.layer.borderColor = UIColor.lightGray.cgColor
         
-        
         button1.layer.borderWidth = 1
         button2.layer.borderWidth = 1
         button3.layer.borderWidth = 1
-        
                 
         askQuestion(action: nil)
     }
@@ -50,6 +51,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
+        
+        UIView.animate(withDuration: 1, delay: 0, options: [], animations: {
+            self.button1.isEnabled = false
+            self.button2.isEnabled = false
+            self.button3.isEnabled = false
+            
+            sender.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+        }) { finished in
+            self.button1.isEnabled = true
+            self.button2.isEnabled = true
+            self.button3.isEnabled = true
+            
+            sender.transform = .identity
+        }
         
         if sender.tag == correctAnswer {
             title = "Correct"
