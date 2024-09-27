@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S41-5k-cVR">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,13 +21,71 @@
                             <outlet property="delegate" destination="BYZ-38-t0r" id="byD-dE-eZ0"/>
                         </connections>
                     </mapView>
+                    <navigationItem key="navigationItem" id="jep-gZ-cqa"/>
                     <connections>
                         <outlet property="mapView" destination="Lwt-Bf-Jn6" id="BXf-Za-yoA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11" y="4"/>
+            <point key="canvasLocation" x="916.92307692307691" y="3.5545023696682461"/>
+        </scene>
+        <!--Detail Web View Controller-->
+        <scene sceneID="i35-T7-1fm">
+            <objects>
+                <viewController storyboardIdentifier="detailWebViewController" id="hTK-fD-qDW" customClass="detailWebViewController" customModule="Project16" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PBu-PF-rQ7">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afm-FT-AXC">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zyX-Wb-XB7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="afm-FT-AXC" firstAttribute="leading" secondItem="zyX-Wb-XB7" secondAttribute="leading" id="6Kv-Wy-vzM"/>
+                            <constraint firstAttribute="bottom" secondItem="afm-FT-AXC" secondAttribute="bottom" id="CjI-4I-ilY"/>
+                            <constraint firstItem="afm-FT-AXC" firstAttribute="trailing" secondItem="zyX-Wb-XB7" secondAttribute="trailing" id="Tb8-Oh-32B"/>
+                            <constraint firstItem="afm-FT-AXC" firstAttribute="top" secondItem="PBu-PF-rQ7" secondAttribute="top" id="v8a-Nk-m9b"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="afm-FT-AXC" id="k4M-3b-7M5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D04-nN-Xha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1680" y="3.5545023696682461"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Eg-rg-WyZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S41-5k-cVR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2VC-mL-tQJ">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="OYf-7W-tSm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XwV-zl-7Se" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12.307692307692307" y="3.5545023696682461"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
