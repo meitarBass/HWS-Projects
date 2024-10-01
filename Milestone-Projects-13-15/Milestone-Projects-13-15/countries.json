@@ -1,0 +1,354 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "France",
+      "population": 67390000,
+      "area": 551695,
+      "general_information": [
+        "France is known for its rich cultural heritage, landmarks like the Eiffel Tower, and cuisine.",
+        "It has a diverse landscape, from the Alps to beautiful coastlines along the Mediterranean.",
+        "Paris is the capital and a global hub for art, fashion, and culture."
+      ],
+      "continent": "Europe",
+      "gba": "3.7 trillion USD",
+      "currency": "Euro (EUR)"
+    },
+    {
+      "id": 2,
+      "name": "Brazil",
+      "population": 216100000,
+      "area": 8515767,
+      "general_information": [
+        "Brazil is the largest country in South America and is known for its Amazon rainforest.",
+        "Its capital is Brasília, while Rio de Janeiro is famous for its Carnival festival.",
+        "Brazil is a global leader in coffee production and has a diverse culture influenced by Portuguese, African, and Indigenous heritages."
+      ],
+      "continent": "South America",
+      "gba": "2.3 trillion USD",
+      "currency": "Brazilian Real (BRL)"
+    },
+    {
+      "id": 3,
+      "name": "Japan",
+      "population": 125700000,
+      "area": 377975,
+      "general_information": [
+        "Japan is an island nation in East Asia, known for its technological innovation and ancient traditions.",
+        "Tokyo, the capital, is one of the largest cities in the world, blending modern skyscrapers with historic temples.",
+        "Japan is famous for its cuisine, particularly sushi, and its strong cultural influence in art, design, and technology."
+      ],
+      "continent": "Asia",
+      "gba": "5.2 trillion USD",
+      "currency": "Japanese Yen (JPY)"
+    },
+    {
+      "id": 4,
+      "name": "South Africa",
+      "population": 60540000,
+      "area": 1221037,
+      "general_information": [
+        "South Africa is known for its diverse wildlife and natural beauty, including famous reserves like Kruger National Park.",
+        "It has 11 official languages and is often called the 'Rainbow Nation' for its cultural diversity.",
+        "Cape Town and Johannesburg are two of its major cities, and it's renowned for its history, including Nelson Mandela's role in ending apartheid."
+      ],
+      "continent": "Africa",
+      "gba": "411 billion USD",
+      "currency": "South African Rand (ZAR)"
+    },
+    {
+      "id": 5,
+      "name": "Australia",
+      "population": 26060000,
+      "area": 7692024,
+      "general_information": [
+        "Australia is the smallest continent but one of the largest countries by area, known for its unique wildlife and landscapes.",
+        "Sydney and Melbourne are its two largest cities, while Canberra is the capital.",
+        "The Great Barrier Reef and Uluru are among its most iconic natural landmarks, and it has a strong sporting culture."
+      ],
+      "continent": "Oceania",
+      "gba": "1.8 trillion USD",
+      "currency": "Australian Dollar (AUD)"
+    },
+    {
+      "id": 6,
+      "name": "Canada",
+      "population": 38050000,
+      "area": 9984670,
+      "general_information": [
+        "Canada is the second-largest country in the world by area, known for its natural beauty and friendly people.",
+        "It has two official languages: English and French, and the capital is Ottawa.",
+        "Canada's economy is based on natural resources, technology, and manufacturing."
+      ],
+      "continent": "North America",
+      "gba": "2.0 trillion USD",
+      "currency": "Canadian Dollar (CAD)"
+    },
+    {
+      "id": 7,
+      "name": "Germany",
+      "population": 83240000,
+      "area": 357022,
+      "general_information": [
+        "Germany is Europe's largest economy and a global leader in engineering and technology.",
+        "Berlin is the capital and largest city, known for its history, culture, and modern landmarks.",
+        "Germany is famous for its contributions to classical music, literature, and philosophy."
+      ],
+      "continent": "Europe",
+      "gba": "4.2 trillion USD",
+      "currency": "Euro (EUR)"
+    },
+    {
+      "id": 8,
+      "name": "India",
+      "population": 1407600000,
+      "area": 3287263,
+      "general_information": [
+        "India is the second most populous country and one of the fastest-growing economies in the world.",
+        "It has a rich cultural heritage, with festivals, diverse religions, and historic landmarks like the Taj Mahal.",
+        "New Delhi is the capital, and Hindi and English are the official languages."
+      ],
+      "continent": "Asia",
+      "gba": "3.7 trillion USD",
+      "currency": "Indian Rupee (INR)"
+    },
+    {
+      "id": 9,
+      "name": "Mexico",
+      "population": 128900000,
+      "area": 1964375,
+      "general_information": [
+        "Mexico is the largest Spanish-speaking country in the world, with a rich history rooted in ancient civilizations like the Aztecs and Maya.",
+        "The capital, Mexico City, is one of the largest cities in the world.",
+        "Mexico is known for its cuisine, vibrant culture, and tourist destinations like Cancun and Mexico City."
+      ],
+      "continent": "North America",
+      "gba": "1.3 trillion USD",
+      "currency": "Mexican Peso (MXN)"
+    },
+    {
+      "id": 10,
+      "name": "Russia",
+      "population": 144100000,
+      "area": 17098242,
+      "general_information": [
+        "Russia is the largest country in the world, spanning Europe and Asia.",
+        "Moscow is the capital and a global city with a rich cultural and political history.",
+        "Russia has a strong presence in energy production, particularly oil and gas."
+      ],
+      "continent": "Europe/Asia",
+      "gba": "1.6 trillion USD",
+      "currency": "Russian Ruble (RUB)"
+    },
+    {
+      "id": 11,
+      "name": "United States",
+      "population": 331900000,
+      "area": 9833520,
+      "general_information": [
+        "The United States is one of the world's largest economies and has a significant global influence.",
+        "Washington D.C. is the capital, and New York City is the largest city.",
+        "The U.S. is known for its diversity, innovation, and global cultural impact, particularly in entertainment and technology."
+      ],
+      "continent": "North America",
+      "gba": "25.3 trillion USD",
+      "currency": "United States Dollar (USD)"
+    },
+    {
+      "id": 12,
+      "name": "Argentina",
+      "population": 45195777,
+      "area": 2780400,
+      "general_information": [
+        "Argentina is known for its tango music and dance, delicious cuisine like empanadas, and world-famous wines.",
+        "Buenos Aires is the capital, known for its European architecture and vibrant cultural scene.",
+        "It is the second-largest country in South America."
+      ],
+      "continent": "South America",
+      "gba": "545 billion USD",
+      "currency": "Argentine Peso (ARS)"
+    },
+    {
+      "id": 13,
+      "name": "China",
+      "population": 1412600000,
+      "area": 9596961,
+      "general_information": [
+        "China is the most populous country and the second-largest economy in the world.",
+        "Beijing is the capital, and Shanghai is its financial hub.",
+        "China has a rich cultural history, and it is a global leader in manufacturing and technology."
+      ],
+      "continent": "Asia",
+      "gba": "19.2 trillion USD",
+      "currency": "Renminbi (CNY)"
+    },
+    {
+      "id": 14,
+      "name": "United Kingdom",
+      "population": 67100000,
+      "area": 243610,
+      "general_information": [
+        "The United Kingdom consists of England, Scotland, Wales, and Northern Ireland.",
+        "London, the capital, is a global city known for its history, culture, and financial industry.",
+        "The UK has a parliamentary democracy with a constitutional monarchy, and it played a significant role in shaping the modern world."
+      ],
+      "continent": "Europe",
+      "gba": "3.1 trillion USD",
+      "currency": "British Pound Sterling (GBP)"
+    },
+    {
+      "id": 15,
+      "name": "Italy",
+      "population": 60370000,
+      "area": 301340,
+      "general_information": [
+        "Italy is known for its history, art, and cuisine, with famous landmarks such as the Colosseum and the Leaning Tower of Pisa.",
+        "Rome is the capital and is home to Vatican City, the seat of the Roman Catholic Church.",
+        "Italy is a leader in fashion, design, and automotive manufacturing."
+      ],
+      "continent": "Europe",
+      "gba": "2.1 trillion USD",
+      "currency": "Euro (EUR)"
+    },
+    {
+      "id": 16,
+      "name": "Spain",
+      "population": 47400000,
+      "area": 505990,
+      "general_information": [
+        "Spain is known for its rich cultural heritage, art, and architecture, including works by Gaudí.",
+        "Madrid is the capital, while Barcelona is famous for its artistic and architectural landmarks.",
+        "Spain is a major producer of wine and olive oil, and its cuisine includes dishes like paella and tapas."
+      ],
+      "continent": "Europe",
+      "gba": "1.5 trillion USD",
+      "currency": "Euro (EUR)"
+    },
+    {
+      "id": 17,
+      "name": "Netherlands",
+      "population": 17100000,
+      "area": 41543,
+      "general_information": [
+        "The Netherlands is known for its flat landscape of canals, tulip fields, and windmills.",
+        "Amsterdam, the capital, is famous for its artistic heritage and narrow houses with gabled facades.",
+        "The country is a founding member of NATO and has a strong economy based on trade and agriculture."
+      ],
+      "continent": "Europe",
+      "gba": "1 trillion USD",
+      "currency": "Euro (EUR)"
+    },
+    {
+      "id": 18,
+      "name": "Turkey",
+      "population": 85000000,
+      "area": 783356,
+      "general_information": [
+        "Turkey is a transcontinental country, bridging Europe and Asia, known for its diverse culture and history.",
+        "Istanbul, the largest city, is famous for its historic sites, including the Hagia Sophia and the Blue Mosque.",
+        "Turkey has a rich culinary tradition and is known for its hospitality."
+      ],
+      "continent": "Asia/Europe",
+      "gba": "953 billion USD",
+      "currency": "Turkish Lira (TRY)"
+    },
+    {
+      "id": 19,
+      "name": "Sweden",
+      "population": 10300000,
+      "area": 450295,
+      "general_information": [
+        "Sweden is known for its high standard of living, beautiful landscapes, and innovative design.",
+        "Stockholm is the capital and is built on 14 islands, known for its museums and vibrant cultural scene.",
+        "Sweden is a leader in sustainability and environmental initiatives."
+      ],
+      "continent": "Europe",
+      "gba": "627 billion USD",
+      "currency": "Swedish Krona (SEK)"
+    },
+    {
+      "id": 20,
+      "name": "Saudi Arabia",
+      "population": 34800000,
+      "area": 2149690,
+      "general_information": [
+        "Saudi Arabia is known for its vast deserts and as the birthplace of Islam, with cities like Mecca and Medina.",
+        "Riyadh is the capital and largest city, and the economy is heavily reliant on oil exports.",
+        "The country is undergoing significant social and economic reforms under its Vision 2030 initiative."
+      ],
+      "continent": "Asia",
+      "gba": "1 trillion USD",
+      "currency": "Saudi Riyal (SAR)"
+    },
+    {
+      "id": 21,
+      "name": "Nigeria",
+      "population": 211400708,
+      "area": 923768,
+      "general_information": [
+        "Nigeria is the most populous country in Africa, known for its rich cultural diversity and economic potential.",
+        "Abuja is the capital, while Lagos is its largest city and a major financial hub.",
+        "The country is known for its music, art, and literature, and is a leading producer of oil in Africa."
+      ],
+      "continent": "Africa",
+      "gba": "442 billion USD",
+      "currency": "Nigerian Naira (NGN)"
+    },
+    {
+      "id": 22,
+      "name": "Philippines",
+      "population": 113000000,
+      "area": 300000,
+      "general_information": [
+        "The Philippines is an archipelago consisting of over 7,000 islands, known for its beaches and biodiversity.",
+        "Manila is the capital, and the country has a vibrant culture influenced by Spanish colonization.",
+        "The economy is based on agriculture, manufacturing, and services, and tourism is a growing sector."
+      ],
+      "continent": "Asia",
+      "gba": "402 billion USD",
+      "currency": "Philippine Peso (PHP)"
+    },
+    {
+      "id": 23,
+      "name": "Egypt",
+      "population": 102000000,
+      "area": 1002450,
+      "general_information": [
+        "Egypt is known for its ancient civilization, including the pyramids and the Sphinx.",
+        "Cairo is the capital and is one of the largest cities in the Arab world.",
+        "The economy is diverse, relying on tourism, agriculture, and natural gas exports."
+      ],
+      "continent": "Africa",
+      "gba": "404 billion USD",
+      "currency": "Egyptian Pound (EGP)"
+    },
+    {
+      "id": 24,
+      "name": "Vietnam",
+      "population": 98100000,
+      "area": 331212,
+      "general_information": [
+        "Vietnam is known for its rich history, stunning landscapes, and vibrant street food culture.",
+        "Hanoi is the capital, and Ho Chi Minh City is the largest city.",
+        "The economy is rapidly growing, with manufacturing and exports playing significant roles."
+      ],
+      "continent": "Asia",
+      "gba": "343 billion USD",
+      "currency": "Vietnamese Dong (VND)"
+    },
+    {
+      "id": 25,
+      "name": "Malaysia",
+      "population": 32730000,
+      "area": 329847,
+      "general_information": [
+        "Malaysia is known for its diverse cultures, languages, and cuisine, featuring a mix of Malay, Chinese, and Indian influences.",
+        "Kuala Lumpur is the capital and is famous for the Petronas Towers.",
+        "The economy is diverse, with sectors including manufacturing, services, and agriculture."
+      ],
+      "continent": "Asia",
+      "gba": "336 billion USD",
+      "currency": "Malaysian Ringgit (MYR)"
+    }
+  ]
+}

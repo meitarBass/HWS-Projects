@@ -13,6 +13,10 @@
 		A945727A2CA536A1006C38CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A94572792CA536A1006C38CD /* Base */; };
 		A945727C2CA536A2006C38CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A945727B2CA536A2006C38CD /* Assets.xcassets */; };
 		A945727F2CA536A2006C38CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A945727E2CA536A2006C38CD /* Base */; };
+		A94572872CA53766006C38CD /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94572862CA53766006C38CD /* Country.swift */; };
+		A94572892CA537A7006C38CD /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94572882CA537A7006C38CD /* Countries.swift */; };
+		A945728B2CA5398F006C38CD /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = A945728A2CA5398F006C38CD /* countries.json */; };
+		A945728D2CA54E7A006C38CD /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945728C2CA54E7A006C38CD /* CountryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A945727B2CA536A2006C38CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A945727E2CA536A2006C38CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A94572802CA536A2006C38CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94572862CA53766006C38CD /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		A94572882CA537A7006C38CD /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		A945728A2CA5398F006C38CD /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		A945728C2CA54E7A006C38CD /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		A94572712CA536A1006C38CD /* Milestone-Projects-13-15 */ = {
 			isa = PBXGroup;
 			children = (
+				A945728A2CA5398F006C38CD /* countries.json */,
 				A94572722CA536A1006C38CD /* AppDelegate.swift */,
 				A94572742CA536A1006C38CD /* SceneDelegate.swift */,
 				A94572762CA536A1006C38CD /* ViewController.swift */,
@@ -63,6 +72,9 @@
 				A945727B2CA536A2006C38CD /* Assets.xcassets */,
 				A945727D2CA536A2006C38CD /* LaunchScreen.storyboard */,
 				A94572802CA536A2006C38CD /* Info.plist */,
+				A94572862CA53766006C38CD /* Country.swift */,
+				A94572882CA537A7006C38CD /* Countries.swift */,
+				A945728C2CA54E7A006C38CD /* CountryDetailViewController.swift */,
 			);
 			path = "Milestone-Projects-13-15";
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				A945727C2CA536A2006C38CD /* Assets.xcassets in Resources */,
 				A945727F2CA536A2006C38CD /* Base in Resources */,
+				A945728B2CA5398F006C38CD /* countries.json in Resources */,
 				A945727A2CA536A1006C38CD /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A945728D2CA54E7A006C38CD /* CountryDetailViewController.swift in Sources */,
+				A94572872CA53766006C38CD /* Country.swift in Sources */,
 				A94572772CA536A1006C38CD /* ViewController.swift in Sources */,
 				A94572732CA536A1006C38CD /* AppDelegate.swift in Sources */,
+				A94572892CA537A7006C38CD /* Countries.swift in Sources */,
 				A94572752CA536A1006C38CD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
