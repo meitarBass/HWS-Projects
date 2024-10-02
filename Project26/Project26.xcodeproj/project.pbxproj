@@ -17,10 +17,12 @@
 		A953CE8F2CAD82F400438447 /* background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A953CE862CAD82F400438447 /* background@2x.jpg */; };
 		A953CE902CAD82F400438447 /* block@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A953CE872CAD82F400438447 /* block@2x.png */; };
 		A953CE912CAD82F400438447 /* finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A953CE882CAD82F400438447 /* finish@2x.png */; };
-		A953CE922CAD82F400438447 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A953CE892CAD82F400438447 /* level1.txt */; };
+		A953CE922CAD82F400438447 /* level3.txt in Resources */ = {isa = PBXBuildFile; fileRef = A953CE892CAD82F400438447 /* level3.txt */; };
 		A953CE932CAD82F400438447 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A953CE8A2CAD82F400438447 /* player@2x.png */; };
 		A953CE942CAD82F400438447 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A953CE8B2CAD82F400438447 /* star@2x.png */; };
 		A953CE952CAD82F400438447 /* vortex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A953CE8C2CAD82F400438447 /* vortex@2x.png */; };
+		A9CE776C2CADC73D00F9D72E /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9CE776B2CADC73D00F9D72E /* level1.txt */; };
+		A9CE776E2CADC79700F9D72E /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9CE776D2CADC79700F9D72E /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +37,12 @@
 		A953CE862CAD82F400438447 /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
 		A953CE872CAD82F400438447 /* block@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block@2x.png"; sourceTree = "<group>"; };
 		A953CE882CAD82F400438447 /* finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finish@2x.png"; sourceTree = "<group>"; };
-		A953CE892CAD82F400438447 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		A953CE892CAD82F400438447 /* level3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level3.txt; sourceTree = "<group>"; };
 		A953CE8A2CAD82F400438447 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
 		A953CE8B2CAD82F400438447 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
 		A953CE8C2CAD82F400438447 /* vortex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vortex@2x.png"; sourceTree = "<group>"; };
+		A9CE776B2CADC73D00F9D72E /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = SOURCE_ROOT; };
+		A9CE776D2CADC79700F9D72E /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +93,9 @@
 				A953CE862CAD82F400438447 /* background@2x.jpg */,
 				A953CE872CAD82F400438447 /* block@2x.png */,
 				A953CE882CAD82F400438447 /* finish@2x.png */,
-				A953CE892CAD82F400438447 /* level1.txt */,
+				A9CE776B2CADC73D00F9D72E /* level1.txt */,
+				A9CE776D2CADC79700F9D72E /* level2.txt */,
+				A953CE892CAD82F400438447 /* level3.txt */,
 				A953CE8A2CAD82F400438447 /* player@2x.png */,
 				A953CE8B2CAD82F400438447 /* star@2x.png */,
 				A953CE8C2CAD82F400438447 /* vortex@2x.png */,
@@ -165,10 +171,12 @@
 			files = (
 				A953CE952CAD82F400438447 /* vortex@2x.png in Resources */,
 				A953CE722CAD829500438447 /* GameScene.sks in Resources */,
-				A953CE922CAD82F400438447 /* level1.txt in Resources */,
+				A9CE776C2CADC73D00F9D72E /* level1.txt in Resources */,
+				A953CE922CAD82F400438447 /* level3.txt in Resources */,
 				A953CE7B2CAD829500438447 /* Base in Resources */,
 				A953CE912CAD82F400438447 /* finish@2x.png in Resources */,
 				A953CE7D2CAD829600438447 /* Assets.xcassets in Resources */,
+				A9CE776E2CADC79700F9D72E /* level2.txt in Resources */,
 				A953CE8F2CAD82F400438447 /* background@2x.jpg in Resources */,
 				A953CE942CAD82F400438447 /* star@2x.png in Resources */,
 				A953CE902CAD82F400438447 /* block@2x.png in Resources */,
