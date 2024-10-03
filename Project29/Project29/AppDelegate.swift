@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Project29
-//
-//  Created by Meitar Basson on 03/10/2024.
-//
-
 import UIKit
 
 @main

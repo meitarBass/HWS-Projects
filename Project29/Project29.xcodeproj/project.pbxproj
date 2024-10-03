@@ -15,6 +15,8 @@
 		A9B5D3082CAE7E0F00612F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B5D3072CAE7E0F00612F2D /* Assets.xcassets */; };
 		A9B5D30B2CAE7E0F00612F2D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A9B5D30A2CAE7E0F00612F2D /* Base */; };
 		A9B5D3122CAE7E5D00612F2D /* BuildingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B5D3112CAE7E5D00612F2D /* BuildingNode.swift */; };
+		A9B5D3152CAE9DA200612F2D /* hitPlayer.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9B5D3132CAE9DA200612F2D /* hitPlayer.sks */; };
+		A9B5D3162CAE9DA200612F2D /* hitBuilding.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9B5D3142CAE9DA200612F2D /* hitBuilding.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		A9B5D3072CAE7E0F00612F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9B5D30A2CAE7E0F00612F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9B5D3112CAE7E5D00612F2D /* BuildingNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingNode.swift; sourceTree = "<group>"; };
+		A9B5D3132CAE9DA200612F2D /* hitPlayer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitPlayer.sks; sourceTree = "<group>"; };
+		A9B5D3142CAE9DA200612F2D /* hitBuilding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitBuilding.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				A9B5D3042CAE7E0D00612F2D /* Main.storyboard */,
 				A9B5D3072CAE7E0F00612F2D /* Assets.xcassets */,
 				A9B5D3092CAE7E0F00612F2D /* LaunchScreen.storyboard */,
+				A9B5D3142CAE9DA200612F2D /* hitBuilding.sks */,
+				A9B5D3132CAE9DA200612F2D /* hitPlayer.sks */,
 			);
 			path = Project29;
 			sourceTree = "<group>";
@@ -131,8 +137,10 @@
 			files = (
 				A9B5D2FD2CAE7E0D00612F2D /* GameScene.sks in Resources */,
 				A9B5D3062CAE7E0D00612F2D /* Base in Resources */,
+				A9B5D3152CAE9DA200612F2D /* hitPlayer.sks in Resources */,
 				A9B5D3082CAE7E0F00612F2D /* Assets.xcassets in Resources */,
 				A9B5D30B2CAE7E0F00612F2D /* Base in Resources */,
+				A9B5D3162CAE9DA200612F2D /* hitBuilding.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
